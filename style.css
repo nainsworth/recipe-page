@@ -92,6 +92,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 123px 0;
 }
 
 /* Card */
@@ -179,6 +180,12 @@ footer {
 }
 
 /* Media Queries */
+@media screen and (max-width: 880px) {
+  main {
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 428px) {
   .card {
     margin: 0;
