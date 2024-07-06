@@ -43,16 +43,19 @@ html {
 
 h1 {
   color: var(--dark-charcoal);
+  font-size: 32px;
 }
 
 h2 {
   color: var(--nutmeg);
+  font-size: 27px;
   margin-bottom: 27px;
 }
 
 h1,
 h2 {
   font-family: var(--font-young-serif);
+  font-weight: var(--font-regular);
 }
 
 ul,
