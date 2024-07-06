@@ -91,6 +91,7 @@ main {
   align-items: center;
 }
 
+/* Card */
 .card {
   background-color: var(--white);
   max-width: 736px;
@@ -103,17 +104,20 @@ main {
   margin: 40px 40px 0;
 }
 
+/* Image */
 .recipe-image {
   max-width: 100%;
   border-radius: 12px;
 }
 
+/* Info Section */
 .info {
   display: flex;
   flex-direction: column;
   gap: 19px;
 }
 
+/* Prep Time Section */
 .prep-time-section {
   background-color: var(--rose-white);
   border-radius: 12px;
@@ -130,11 +134,13 @@ main {
   color: var(--dark-raspberry);
 }
 
+/* Instruction Section */
 .instruction-list::marker {
   color: var(--nutmeg);
   font-weight: var(--font-bold);
 }
 
+/* Nutrition Section */
 .row {
   display: flex;
   margin: 12px 32px;
@@ -169,6 +175,7 @@ footer {
   color: var(--dark-raspberry);
 }
 
+/* Media Queries */
 @media screen and (max-width: 428px) {
   .card {
     margin: 0;
